@@ -1,0 +1,118 @@
+:root {
+  font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Glassmorphic Utilities */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(15, 23, 42, 0.06);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.04);
+}
+
+.dark .glass-panel {
+  background: rgba(15, 23, 42, 0.45);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* Text Gradients */
+.text-gradient-primary {
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.dark .text-gradient-primary {
+  background: linear-gradient(135deg, #a78bfa 0%, #06b6d4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Custom Calendar Styling Override */
+.fc {
+  font-family: inherit !important;
+  --fc-border-color: rgba(15, 23, 42, 0.08) !important;
+  --fc-page-bg-color: transparent !important;
+}
+
+.dark .fc {
+  --fc-border-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+.fc .fc-toolbar-title {
+  font-size: 1.25rem !important;
+  font-weight: 700 !important;
+}
+
+.fc .fc-button {
+  background-color: rgba(99, 102, 241, 0.1) !important;
+  border: 1px solid rgba(99, 102, 241, 0.2) !important;
+  color: #6366f1 !important;
+  border-radius: 8px !important;
+  font-weight: 600 !important;
+  text-transform: capitalize !important;
+  transition: all 0.2s ease !important;
+}
+
+.dark .fc .fc-button {
+  background-color: rgba(139, 92, 246, 0.15) !important;
+  border: 1px solid rgba(139, 92, 246, 0.3) !important;
+  color: #a78bfa !important;
+}
+
+.fc .fc-button:hover, .fc .fc-button-active {
+  background-color: #6366f1 !important;
+  color: white !important;
+}
+
+.dark .fc .fc-button:hover, .dark .fc .fc-button-active {
+  background-color: #8b5cf6 !important;
+  color: white !important;
+}
+
+.fc-theme-standard td, .fc-theme-standard th {
+  border: 1px solid rgba(15, 23, 42, 0.08) !important;
+}
+
+.dark .fc-theme-standard td, .dark .fc-theme-standard th {
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+
+.fc .fc-daygrid-day-number {
+  font-weight: 600 !important;
+  font-size: 0.85rem !important;
+  padding: 6px !important;
+  color: inherit !important;
+}
+
+/* Kanban Cards custom drag effects */
+.kanban-card-dragging {
+  cursor: grabbing !important;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.15), 0 10px 10px -5px rgba(0, 0, 0, 0.04) !important;
+  transform: rotate(2deg) scale(1.02) !important;
+}

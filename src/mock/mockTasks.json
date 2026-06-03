@@ -1,0 +1,169 @@
+[
+  {
+    "id": "task-1",
+    "title": "Design SaaS Landing Page",
+    "description": "Create high-fidelity wireframes and Figma components for the landing page hero and pricing sections.",
+    "priority": "high",
+    "status": "in-progress",
+    "dueDate": "2026-06-03",
+    "category": "Design",
+    "assignee": {
+      "name": "Alex Carter",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=80&fit=crop&auto=format&q=80"
+    },
+    "subtasks": [
+      { "id": "sub-1-1", "title": "Define visual styling and glassmorphism levels", "completed": true },
+      { "id": "sub-1-2", "title": "Create mobile responsive layouts", "completed": false },
+      { "id": "sub-1-3", "title": "Export SVG graphics and icon sets", "completed": false }
+    ]
+  },
+  {
+    "id": "task-2",
+    "title": "Refactor Context State System",
+    "description": "Improve rendering performance by separating UI theme state from core task data state providers.",
+    "priority": "high",
+    "status": "todo",
+    "dueDate": "2026-06-05",
+    "category": "Dev",
+    "assignee": {
+      "name": "Sarah Chen",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=80&fit=crop&auto=format&q=80"
+    },
+    "subtasks": [
+      { "id": "sub-2-1", "title": "Identify render bottle-necks with devtools", "completed": false },
+      { "id": "sub-2-2", "title": "Rewrite task state using custom hooks", "completed": false }
+    ]
+  },
+  {
+    "id": "task-3",
+    "title": "Write API Documentation",
+    "description": "Document endpoint request/response payloads, authentication scopes, and error states for public release.",
+    "priority": "medium",
+    "status": "review",
+    "dueDate": "2026-06-02",
+    "category": "Work",
+    "assignee": {
+      "name": "Alex Carter",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=80&fit=crop&auto=format&q=80"
+    },
+    "subtasks": [
+      { "id": "sub-3-1", "title": "Write OpenAPI specification", "completed": true },
+      { "id": "sub-3-2", "title": "Review with engineering leads", "completed": true },
+      { "id": "sub-3-3", "title": "Deploy docs to static hosting", "completed": false }
+    ]
+  },
+  {
+    "id": "task-4",
+    "title": "Launch Marketing Campaign",
+    "description": "Set up social media calendar, schedule initial product announcements, and coordinate newsletters.",
+    "priority": "low",
+    "status": "todo",
+    "dueDate": "2026-06-10",
+    "category": "Marketing",
+    "assignee": {
+      "name": "Marcus Aurelius",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&fit=crop&auto=format&q=80"
+    },
+    "subtasks": [
+      { "id": "sub-4-1", "title": "Draft copy for Twitter and LinkedIn", "completed": false },
+      { "id": "sub-4-2", "title": "Design banner images for Product Hunt launch", "completed": false }
+    ]
+  },
+  {
+    "id": "task-5",
+    "title": "Review Analytics & Metrics",
+    "description": "Analyze user conversion rates, average workspace activation speeds, and active dashboard streaks.",
+    "priority": "medium",
+    "status": "completed",
+    "dueDate": "2026-06-01",
+    "category": "Marketing",
+    "assignee": {
+      "name": "Sarah Chen",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=80&fit=crop&auto=format&q=80"
+    },
+    "subtasks": [
+      { "id": "sub-5-1", "title": "Export Mixpanel metrics to CSV", "completed": true },
+      { "id": "sub-5-2", "title": "Build monthly user active report deck", "completed": true }
+    ]
+  },
+  {
+    "id": "task-6",
+    "title": "Optimize SVG Rendering",
+    "description": "Implement lazy loading for landing page visuals and replace external raster icons with fast responsive inline SVGs.",
+    "priority": "low",
+    "status": "completed",
+    "dueDate": "2026-05-30",
+    "category": "Design",
+    "assignee": {
+      "name": "Alex Carter",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=80&fit=crop&auto=format&q=80"
+    },
+    "subtasks": [
+      { "id": "sub-6-1", "title": "Minify inline code graphics", "completed": true }
+    ]
+  },
+  {
+    "id": "task-7",
+    "title": "Integrate Calendar Library",
+    "description": "Configure FullCalendar with customized event render callbacks and responsive layout switches.",
+    "priority": "high",
+    "status": "in-progress",
+    "dueDate": "2026-06-04",
+    "category": "Dev",
+    "assignee": {
+      "name": "Sarah Chen",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=80&fit=crop&auto=format&q=80"
+    },
+    "subtasks": [
+      { "id": "sub-7-1", "title": "Install @fullcalendar dependencies", "completed": true },
+      { "id": "sub-7-2", "title": "Setup view switcher for desktop/mobile layouts", "completed": false }
+    ]
+  },
+  {
+    "id": "task-8",
+    "title": "Plan Q3 Roadmap",
+    "description": "Define primary product deliverables, OKRs, and key metrics targets for Q3 with executives.",
+    "priority": "medium",
+    "status": "todo",
+    "dueDate": "2026-06-15",
+    "category": "Work",
+    "assignee": {
+      "name": "Marcus Aurelius",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&fit=crop&auto=format&q=80"
+    },
+    "subtasks": [
+      { "id": "sub-8-1", "title": "Draft core themes list", "completed": false },
+      { "id": "sub-8-2", "title": "Gather resource estimation inputs", "completed": false }
+    ]
+  },
+  {
+    "id": "task-9",
+    "title": "Fix Profile Timeline Glitch",
+    "description": "Debug rendering error when displaying events that occurred on the same millisecond in history.",
+    "priority": "high",
+    "status": "completed",
+    "dueDate": "2026-06-02",
+    "category": "Dev",
+    "assignee": {
+      "name": "Sarah Chen",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=80&fit=crop&auto=format&q=80"
+    },
+    "subtasks": [
+      { "id": "sub-9-1", "title": "Add stable key sorting criteria", "completed": true }
+    ]
+  },
+  {
+    "id": "task-10",
+    "title": "Schedule Personal Health Check",
+    "description": "Quarterly physical screening and vision appointment review.",
+    "priority": "low",
+    "status": "todo",
+    "dueDate": "2026-06-03",
+    "category": "Personal",
+    "assignee": {
+      "name": "Marcus Aurelius",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&fit=crop&auto=format&q=80"
+    },
+    "subtasks": []
+  }
+]
